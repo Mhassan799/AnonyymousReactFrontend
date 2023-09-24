@@ -1,0 +1,23 @@
+.para{
+    width: 193px;
+height: 14.37px;
+flex-shrink: 0;
+color: var(--Secondary-text, #C4C5C5);
+text-align: center;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.8;
+padding-top: 20px;
+}
+.btnCover{
+    padding-top: 30px;
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}

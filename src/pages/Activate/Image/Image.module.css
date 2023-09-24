@@ -1,0 +1,31 @@
+.btnCover{
+    padding-top: 30px;
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.imgCover{
+    height:120px;
+    width: 120px;
+    border: 6px solid #0077ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.ImgOrg{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+.avatar{
+    display: none;
+}
+.avatarGet{
+    color: #0077ff;
+    cursor: pointer;
+}

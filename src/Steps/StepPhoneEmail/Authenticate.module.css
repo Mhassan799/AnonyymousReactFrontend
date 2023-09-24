@@ -1,0 +1,25 @@
+.input{
+    background: #323232;
+    border: none;
+    padding: 10px 20px;
+    width: 200px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgCon{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 65%;
+    /* justify-items: flex-end; */
+}
+.container{
+    margin-top: 8rem;
+}

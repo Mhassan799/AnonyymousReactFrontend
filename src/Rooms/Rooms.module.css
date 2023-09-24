@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px;
+    padding:20px;
+
+}
+.btnSet{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+background: var(--Sucess, #20BD5F);
+    padding: 10px 10px;
+}
+span{
+    color: white;
+    margin-left: 10px;
+}
+.modalCover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    color: var(--Primary-text, #FFF);
+text-align: center;
+font-family: Nunito;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.roomList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+    padding: 20px;
+}

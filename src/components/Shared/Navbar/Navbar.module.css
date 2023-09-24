@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+.logoText{
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.coverN{
+    display: flex;
+    align-items: center;
+}
+.dpCover{
+    height: 50px;
+    width: 50px;
+    border: 5px solid #0077ff;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.dp{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+.sbMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnCover{
+    height: 40px;
+    width: 40px;
+    background-color: #0077ff;
+    /* border: 5px solid #777fff; */
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.imgBtn{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    
+}
